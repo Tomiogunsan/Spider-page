@@ -1,0 +1,102 @@
+.head
+{
+   margin: 0px auto;
+   width: 100%;
+   display:block; 
+
+}
+
+.menu{
+    color: white;
+   
+    font-family: 'sans-serif', Segoe UI;
+  display: flex;
+  justify-content: center;
+   
+      
+}
+
+.about{
+width:100px;
+margin: 3px;
+align-self: center;
+border: 2px solid blue;
+color: white;
+background-color: blue;
+font-size: large;
+
+}
+
+.about:hover {
+  color: rgb(23, 23, 26);
+}
+
+.subtitle{
+  color: white;
+  background: blue;
+}
+
+#img-container{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 70%;
+  min-height: 50vh;
+  background: white;
+  animation: animate 4s linear;
+
+
+}
+
+@keyframes animate{
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  100%{
+    filter:hue-rotate(360deg) ;
+  }
+}
+
+.img{
+  width: 50%;
+
+}
+
+#origin{
+  
+  font-weight: 300;
+  color: blue;
+  font-family: 'sans-serif', georgia;
+}
+
+.link-1{
+  font-family: 'sans-serif',Verdana;
+  color: blue;
+
+}
+
+
+.footer{
+  
+background: blue;
+color: white;
+ text-align: center;
+
+
+
+}
+
+.content{
+  font-family: 'sans-seriff', georgia;
+}
+
+
+
+
+
+
+
+
+
+
+   
